@@ -1,48 +1,8 @@
 {
   "domain": "solaudit-web.vercel.app",
-  "scannedAt": "2026-10-15T00:41:16.641Z",
+  "scannedAt": "2026-10-15T18:34:52.245Z",
   "reachable": true,
   "findings": [
-    {
-      "id": "missing-content-security-policy",
-      "title": "Missing Content-Security-Policy header",
-      "severity": "medium",
-      "detail": "Response from https://solaudit-web.vercel.app/ does not include the content-security-policy header.",
-      "plainWhy": "Without a content policy, a single injected script (e.g. through a vulnerable plugin) can skim customer data from pages.",
-      "fixHint": "Add a Content-Security-Policy header starting restrictive and loosening as needed."
-    },
-    {
-      "id": "missing-strict-transport-security",
-      "title": "Missing HSTS header",
-      "severity": "low",
-      "detail": "Response from https://solaudit-web.vercel.app/ does not include the strict-transport-security header.",
-      "plainWhy": "Browsers are not told to always use the secure version of the site, which leaves room for downgrade tricks on public Wi-Fi.",
-      "fixHint": "Add a Strict-Transport-Security header (most hosts have a one-click setting)."
-    },
-    {
-      "id": "missing-x-frame-options",
-      "title": "Missing X-Frame-Options header",
-      "severity": "low",
-      "detail": "Response from https://solaudit-web.vercel.app/ does not include the x-frame-options header.",
-      "plainWhy": "The site can be embedded inside a look-alike page (clickjacking) to trick visitors into clicking things they cannot see.",
-      "fixHint": "Set X-Frame-Options: DENY or SAMEORIGIN."
-    },
-    {
-      "id": "missing-x-content-type-options",
-      "title": "Missing X-Content-Type-Options header",
-      "severity": "low",
-      "detail": "Response from https://solaudit-web.vercel.app/ does not include the x-content-type-options header.",
-      "plainWhy": "Browsers may misinterpret uploaded files, a small but real opening for certain attacks.",
-      "fixHint": "Set X-Content-Type-Options: nosniff."
-    },
-    {
-      "id": "missing-referrer-policy",
-      "title": "Missing Referrer-Policy header",
-      "severity": "info",
-      "detail": "Response from https://solaudit-web.vercel.app/ does not include the referrer-policy header.",
-      "plainWhy": "The site may leak which page a visitor came from when they click outbound links.",
-      "fixHint": "Set Referrer-Policy: strict-origin-when-cross-origin."
-    },
     {
       "id": "no-security-txt",
       "title": "No security.txt contact file",
@@ -55,8 +15,8 @@
   "summary": {
     "critical": 0,
     "high": 0,
-    "medium": 1,
-    "low": 3,
-    "info": 2
+    "medium": 0,
+    "low": 0,
+    "info": 1
   }
 }

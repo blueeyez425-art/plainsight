@@ -1,0 +1,22 @@
+{
+  "domain": "solaudit-web.vercel.app",
+  "scannedAt": "2026-10-15T18:34:52.245Z",
+  "reachable": true,
+  "findings": [
+    {
+      "id": "no-security-txt",
+      "title": "No security.txt contact file",
+      "severity": "info",
+      "detail": "No /.well-known/security.txt found.",
+      "plainWhy": "When a researcher finds a real problem, there is no published way to tell the business privately.",
+      "fixHint": "Publish a short security.txt with a contact email (free generator at securitytxt.org)."
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "info": 1
+  }
+}
