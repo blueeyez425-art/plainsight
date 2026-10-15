@@ -1,0 +1,13 @@
+{
+  "name": "plainsight",
+  "version": "0.1.0",
+  "description": "Local-first security checkup for small business websites. Passive checks in, plain-English report out — written by an open-weight model on your machine.",
+  "type": "module",
+  "bin": {
+    "plainsight": "./plainsight.ts"
+  },
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
