@@ -3,6 +3,9 @@
 **Local-first security checkups for small business websites.**
 Passive checks in, plain-English report out — written by an open-weight model running entirely on your machine.
 
+
+![PlainSight demo](examples/demo-screenshot.png)
+
 ## What it does
 
 ```bash
